@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: hms-server
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    enable-self-preservation: false
+server:
+  port: 8761
+
+logging:
+  level:
+    com.netflix.eureka: OFF
+    com.netflix.discovery: OFF
+
+
+
+
+
+    #change some value
